@@ -25,6 +25,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install pytest  # Instala pytest
+          pip install requests # Instala requests 
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi  # Instala las dependencias del proyecto si existe un archivo requirements.txt
 
       # Paso 4: Ejecuta los tests con pytest (opcional)
