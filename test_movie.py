@@ -28,7 +28,7 @@ def test_can_call_movie():
     response = get_movie()
     assert response.status_code == 200
     response_data = response.json()
-    print("----response_data",response_data)
+    print("----response_data",response_data) #comentario
 
 
 
